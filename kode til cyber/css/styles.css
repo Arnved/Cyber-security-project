@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Iceland", sans-serif;
+}
+
+body {
+  background-image: url("/img/pexels-frank-cone-140140-3607542.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #44e200;
+  font-size: 160%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+#text-box {
+  width: 80vw;
+  max-width: 1000px;
+  background-color: #000000;
+  color: #44e200;
+  padding: 30px;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #185bff;
+  text-align: center;
+  box-shadow: 0px 0px 15px #d930fe;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  position: relative;
+  margin-top: 40px;
+}
+
+#username {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  position: relative;
+}
+
+#question {
+  font-size: 22px;
+}
+
+button {
+  background-color: #d930fe;
+  color: #44e200;
+  font-size: 90%;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px #185bff;
+}
+
+#button-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.answer-btn {
+  background-color: #d930fe;
+  color: #44e200;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 200px;
+  box-shadow: 0px 0px 15px #185bff;
+  border-radius: 10px;
+}
+
+#quiz-results {
+  width: 80vw;
+  max-width: 1000px;
+  text-align: center;
+  margin-top: 50px;
+  display: block;
+  position: relative;
+  clear: both;
+}
+
+#results {
+  margin-top: 10px;
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #185bff;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #d930fe;
+  margin-bottom: 50px;
+}
+
+#text-box,
+#quiz-results {
+  position: relative;
+}/*# sourceMappingURL=styles.css.map */
